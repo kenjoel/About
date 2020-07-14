@@ -4,9 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <title>Ken Joel Muigai</title>
-    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style>
+  body{
+    overflow-x: none;
+  }
+  #foot{
+    padding-top: 50px;
+  }
+
+  #foot a{
+    position: relative;
+    top: 60%;
+    padding: 20px;
+    left: 0px;
+  }
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#copyright{
+  position: absolute;
+  left: 670px;
+}
+
+p{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#contacts ul li{
+  list-style: none;
+}
+
+ </style>
 <body>
-    
+  <div class="row bg-dark">
+    <div class="col" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+      <img class="img-top" src="./images/IMG20200413144109.jpg" width="500px" height="500px">
+    </div>
+    <div class="col" data-aos="fade-left" data-aos-easing="linear"
+    data-aos-duration="1500">
+      <p class="text-white justify-content-center">My name is Ken Joel Gichuhi Muigai. I am a software developer. Currently, I have 2 years 
+        of professional experience working with various technologies to produce dynamic web applications.
+        In the long run, I plan on venturing into artificial intelligence where I will use the skills
+        I have to be an influence to my community and the world at large. What keeps me up at night is the
+        thought that someone out there is suffering, or is in dire need of assistance. I will always strive
+        within my capable means to assist and be there for those who need me.
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-center bg-dark">
+    <div class="col">
+      <a class="btn btn-primary" type="button" data-toggle="collapse" href="#about" role="button">
+        About
+      </a>
+      <div class="collapse" id="about">
+        <p class="text-white text-center justify-content-start">Ken Joel Muigai was born in Nakuru county, Kenya. He is
+          the first-born child of a family of 6. He has undergone the 8-4-4 education cirriculum and
+          as of July 2020 he is aged 23.
+        </p>
+      </div>
+    </div>
+    <div class="col">
+      <a class="btn btn-primary" type="button" data-toggle="collapse" href="#projects" role="button">Projects</a>
+      <div class="collapse" id="projects">
+        <p>
+          <span class="text-warning">https://github.com/kenjoel/Angular-Express.git</span>
+          <p class="text-white">This here was a Recipe Angular application, the backend was built on <strong>Node js</strong>
+            check it out!
+          </p>
+        </p>
+        <p>
+          <h4 class="text-success">Visit</h4>
+          <span class="text-danger">https://github.com/kenjoel/portfolio.git</span>
+          <p class="text-white">For more projects or check my contacts for an in-person session</p>
+        </p>
+      </div>
+    </div>
+    <div class="col">
+      <a class="btn btn-primary" type="button" data-toggle="collapse" href="#interests" role="button">Interests</a>
+      <div class="collapse text-white" id="interests">
+        <ul>
+          <li>I love nature</li>
+          <li>I like a rainy day</li>
+          <li>I certainly enjoy new technologies and IoT</li>
+          <li>My favourite color is Black</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <a class="btn btn-primary" type="button" data-toggle="collapse" href="#contacts" role="button">contacts</a>
+      <div class="collapse" id="contacts">
+        <ul class="text-white justify-content-start">
+          <li >Number:<a class="tel:0792213099">0792213099</a></li>
+          <li>Email:<a class="mailto:kenmuigai980@gmail.com">kenmuigai@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row bg-dark text-center sticky-bottom" id="foot" data-aos="fade-right"
+     data-aos-duration="1500">
+    <a class="fa fa-facebook"></a>
+    <a class="fa fa-twitter"></a>
+    <a class="fa fa-linkedin"></a>
+    <p class="text-white" id="copyright">
+    &copy;2020
+  </p>
+  </div>
+ 
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
